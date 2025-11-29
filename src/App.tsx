@@ -10,7 +10,7 @@ import Configurator from "./pages/Configurator";
 import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Support from "./pages/Support";
-import Contact from "./pages/Contact";
+
 import AdminDashboard from "./pages/AdminDashboard";
 import NotFound from "./pages/NotFound";
 
@@ -29,7 +29,7 @@ const App = () => (
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
-          <Route path="/contact" element={<Contact />} />
+          
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
